@@ -346,7 +346,7 @@ a{
 	width: 31%;
 	padding-bottom: 50px;
 }
-@media (max-width:560px){
+@media (max-width:767px){
 	.evaluate .container ul{
 		flex-wrap: wrap;
 	}
@@ -726,6 +726,11 @@ a{
 	color: #3D1101 ;
 	background: #EFE9E7;
 }
+.searchterm:focus{
+	background: #fff;
+	border: 4px solid #FF5E45;
+}
+
 .searchButton{
 	width: 36px;
 	border: 1px solid #3D1101 ;
@@ -734,6 +739,10 @@ a{
 	line-height: 32px;
 	color: #fff;
 	cursor: pointer;
+}
+.searchterm:focus~ .searchButton{
+	border: 1px solid #FF5E45;
+	background: #FF5E45;
 }
 
 .checkout{
