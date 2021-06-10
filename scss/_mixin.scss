@@ -1,0 +1,7 @@
+@mixin keywordBehindImg($img) {
+	background: url($img) no-repeat;
+	display: block;
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+}
